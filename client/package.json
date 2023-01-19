@@ -1,0 +1,54 @@
+{
+  "name": "client",
+  "author": {
+    "name": "Derian Cordoba"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/DerianCordobaPerez/MERN_STACK_DB_MOVIES/blob/Master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DerianCordobaPerez/MERN_STACK_DB_MOVIES"
+  },
+  "bugs": {
+    "url": "https://github.com/DerianCordobaPerez/MERN_STACK_DB_MOVIES/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.5",
+    "axios": "^0.24.0",
+    "formidable": "^2.0.1",
+    "js-cookie": "^3.0.1",
+    "next": "^12.0.7",
+    "next-redux-wrapper": "^7.0.5",
+    "notiflix": "^3.2.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-loading": "^2.0.3",
+    "react-modal": "^3.14.4",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "12.0.3",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.28.0",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}
